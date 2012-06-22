@@ -30,6 +30,7 @@ module CarrierWave
           model.original_filename = file.original_filename # string
           model.content_type = file.content_type # string
           model.content = file.read # binary
+          model.file_size = file.size # integer
 
           model.save!
         end
