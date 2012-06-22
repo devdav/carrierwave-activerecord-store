@@ -36,6 +36,7 @@ module CarrierWave
 
   module Storage
     autoload :Abstract, 'carrierwave/storage/abstract'
+    autoload :ActiveRecord, 'carrierwave/storage/active_record'
     autoload :File, 'carrierwave/storage/file'
     autoload :Fog, 'carrierwave/storage/fog'
   end

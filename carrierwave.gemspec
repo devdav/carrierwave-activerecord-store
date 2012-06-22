@@ -15,10 +15,10 @@ Gem::Specification.new do |s|
   s.email = ["jonas.nicklas@gmail.com"]
   s.extra_rdoc_files = ["README.md"]
   s.files = Dir.glob("{bin,lib}/**/*") + %w(README.md)
-  s.homepage = %q{https://github.com/jnicklas/carrierwave}
+  s.homepage = %q{https://github.com/devdav/carrierwave-activerecord-store}
   s.rdoc_options = ["--main"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{carrierwave}
+  s.rubyforge_project = %q{carrierwave-activerecord-store}
   s.rubygems_version = %q{1.3.5}
   s.specification_version = 3
 

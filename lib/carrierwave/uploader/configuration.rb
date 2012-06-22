@@ -108,6 +108,7 @@ module CarrierWave
             config.permissions = 0644
             config.directory_permissions = 0755
             config.storage_engines = {
+              :active_record => "CarrierWave::Storage::ActiveRecord",
               :file => "CarrierWave::Storage::File",
               :fog  => "CarrierWave::Storage::Fog"
             }
